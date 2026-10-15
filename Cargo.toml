@@ -1,0 +1,20 @@
+[package]
+name = "rs-dpi-awareness"
+version = "0.1.0"
+edition = "2021"
+description = "Rust-native tribute to Windows DPI awareness (PerMonitorV2): one-call setup with fallbacks, monitor DPI, WM_DPICHANGED, app-manifest generation/embedding and an inspector CLI. No dependencies."
+license = "MIT"
+repository = "https://github.com/aon-co-jp/rs-dpiAwareness"
+readme = "README.md"
+keywords = ["dpi", "windows", "high-dpi", "permonitorv2", "manifest"]
+categories = ["os::windows-apis", "gui"]
+exclude = ["tests/fixtures/*/target"]
+
+[lib]
+name = "rs_dpi_awareness"
+
+[[bin]]
+name = "rs-dpiawareness"
+path = "src/bin/rs-dpiawareness.rs"
+
+[dependencies]

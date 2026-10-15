@@ -1,0 +1,14 @@
+[package]
+name = "manifest-app"
+version = "0.0.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+rs-dpi-awareness = { path = "../../.." }
+
+[build-dependencies]
+rs-dpi-awareness = { path = "../../.." }
+
+# 親のワークスペースに入らない独立したパッケージ(テストが別のtarget-dirでビルドする)。
+[workspace]
