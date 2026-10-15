@@ -16,7 +16,7 @@ English: [PORTING/PORTING.en.md](PORTING/PORTING.en.md)
 3. `*-pc-windows-gnu`でのマニフェスト埋め込み(`windres`経由)。今は警告を出すだけ。
 4. EXEのマニフェスト読み出しを、純Rustの簡易PE解析にしてWindows以外でも`check`を使えるようにする。
 5. crates.ioへの公開(名前`rs-dpi-awareness`が空いているか確認してから)。
-6. CIの結果確認(GitHub Actionsのwindowsランナーは画面が無い場合があり、モニター列挙のテストが失敗するなら条件を緩める)。
+6. (完了)CIはWindows・macOS・Linuxで成功。windowsランナーの仮想画面は小さく(約1024x768)、画面より大きい提案矩形はWindowsが制限するため、自己診断は実モニターに収まる矩形を使うようにした。
 
 ## 設計の判断(理由つき)
 

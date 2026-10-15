@@ -16,7 +16,7 @@ Implemented and verified on a real machine (Windows 11, MSVC, one 4K monitor at 
 3. Manifest embedding for `*-pc-windows-gnu` (via `windres`); today it only warns.
 4. A small pure-Rust PE reader so `check` works off Windows too.
 5. Publish to crates.io (after confirming the name `rs-dpi-awareness` is free).
-6. Check the CI results (GitHub's Windows runners may have no display; if the monitor test fails, relax its condition).
+6. (Done) CI passes on Windows, macOS and Linux. The Windows runner's virtual screen is small (~1024x768) and Windows clamps windows larger than the screen, so the self-test now uses a rectangle that fits the real monitor.
 
 ## Design decisions (with reasons)
 
