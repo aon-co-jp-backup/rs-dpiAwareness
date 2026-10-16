@@ -122,3 +122,7 @@ DPI認識: PerMonitorV2(希望 PerMonitorV2、設定しました) / DPI awarenes
 - 仲間のRust版: [rs-FFmpeg](https://github.com/aon-co-jp/rs-FFmpeg) / [rs-xorriso](https://github.com/aon-co-jp/rs-xorriso)
 
 ライセンス: MIT
+
+---
+
+作者 / Author: 石塚正浩（MASAHIRO ISHIZUKA） (https://github.com/aon-co-jp)
