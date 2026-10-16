@@ -125,4 +125,4 @@ DPI認識: PerMonitorV2(希望 PerMonitorV2、設定しました) / DPI awarenes
 
 ---
 
-作者 / Author: 石塚正浩（MASAHIRO ISHIZUKA） (https://github.com/aon-co-jp)
+作者 / Author: 石 塚 正 浩（MASAHIRO ISHIZUKA） (https://github.com/aon-co-jp)
